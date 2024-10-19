@@ -19,7 +19,7 @@ function Header() {
           className={`hover:text-primary hover:font-bold transition-all cursor-pointer${
             path == "/dashboard" && "text-primary font-bold"
           }
-`}
+    `}
         >
           Dashboard
         </li>
@@ -27,7 +27,7 @@ function Header() {
           className={`hover:text-primary hover:font-bold transition-all cursor-pointer${
             path == "/dashboard/questions" && "text-primary font-bold"
           }
-`}
+  `}
         >
           Questions
         </li>
@@ -35,7 +35,7 @@ function Header() {
           className={`hover:text-primary hover:font-bold transition-all cursor-pointer${
             path == "/dashboard/upgrades" && "text-primary font-bold"
           }
-`}
+  `}
         >
           Upgrades
         </li>
@@ -43,7 +43,7 @@ function Header() {
           className={`hover:text-primary hover:font-bold transition-all cursor-pointer${
             path == "/dashboard/how" && "text-primary font-bold"
           }
-`}
+  `}
         >
           How it works?
         </li>
